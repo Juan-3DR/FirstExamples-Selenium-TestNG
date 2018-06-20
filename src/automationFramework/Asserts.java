@@ -1,0 +1,44 @@
+package automationFramework;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+
+import org.openqa.selenium.WebDriver;
+
+import org.openqa.selenium.WebElement;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import org.testng.Assert;
+
+import org.testng.annotations.Test;
+
+public class Asserts {
+
+	private static WebDriver driver;
+
+	@Test
+	public void f() {
+		driver = new FirefoxDriver();
+
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+		driver.get("http://www.store.demoqa.com");
+
+		// Here driver will try to find out My Account link on the application
+
+		WebElement searchBar = driver.findElement(By.xpath("/html/body/div[2]/div/div/header/"
+			+ "nav/form/fieldset/input[1]"));
+
+		// Test will only continue, if the below statement is true
+
+		// This is to check whether the link is displayed or not
+
+		Assert.assertTrue(searchBar.isDisplayed());
+
+		// My Account will be clicked only if the above condition is true
+
+		searchBar.click();
+	}
+}
