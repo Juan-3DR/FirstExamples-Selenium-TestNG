@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Test - suite" >
+	<test name = "Tools QA" >
+		<classes>
+			<class name = "automationFramework.TestNG" />
+			<class name = "automationFramework.TestNG2" />
+		</classes>
+	</test>
+</suite>
