@@ -29,7 +29,7 @@ public class Asserts {
 		// Here driver will try to find out My Account link on the application
 
 		WebElement searchBar = driver.findElement(By.xpath("/html/body/div[2]/div/div/header/"
-			+ "nav/form/fieldset/input[1]"));
+			+ "nav/asform/fieldset/input[1]"));
 
 		// Test will only continue, if the below statement is true
 
