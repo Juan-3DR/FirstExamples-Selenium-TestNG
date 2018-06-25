@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.Color; //Supports colors in hex
 
 import org.testng.Assert;
@@ -18,7 +18,7 @@ import org.testng.annotations.Test;
 
 public class Asserts {
 
-	private static WebDriver driver;
+//	private static WebDriver driver;
 
 	@Test
 	public void f() throws InterruptedException {
@@ -61,20 +61,24 @@ public class Asserts {
 		driver.get("https://sitescan-legacy-staging.3dr.com/auth");
 		
 		//Input the data
-	      driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[1]/div/form/div[2]/input")).sendKeys("Example@ex.com");
-	      driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[1]/div/form/div[3]/input")).sendKeys("example");
+	      driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[1]/div/form/"
+	      		+ "div[2]/input")).sendKeys("Example@ex.com");
+	      driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[1]/div/form/"
+	      		+ "div[3]/input")).sendKeys("example");
 	      driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[1]/div/form/button")).click();
 		//----------------
 	      Thread.sleep(1000);
 		
 	    //Finding the banner
-	    WebElement banner = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[1]/div/form/div[2]/div"));
+	    WebElement banner = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[1]/div/"
+	    		+ "form/div[2]/div"));
 
 	    //Is there?
 	    Assert.assertTrue(banner.isDisplayed());
 	    
 	    //Getting the color of the banner
-	    String headerColor = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[1]/div/form/div[2]/div")).getCssValue("color");
+	    String headerColor = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[1]/div/"
+	    		+ "form/div[2]/div")).getCssValue("color");
 	    //Converting the color to hex
 	    String hex = Color.fromString(headerColor).asHex();
 	    

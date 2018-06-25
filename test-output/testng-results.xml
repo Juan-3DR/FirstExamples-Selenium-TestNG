@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6954" started-at="2018-06-22T21:25:37Z" finished-at="2018-06-22T21:25:43Z">
+  <suite name="Default suite" duration-ms="7250" started-at="2018-06-25T21:18:05Z" finished-at="2018-06-25T21:18:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6954" started-at="2018-06-22T21:25:37Z" finished-at="2018-06-22T21:25:43Z">
+    <test name="Default test" duration-ms="7250" started-at="2018-06-25T21:18:05Z" finished-at="2018-06-25T21:18:12Z">
       <class name="automationFramework.Asserts">
-        <test-method status="PASS" signature="f()[pri:0, instance:automationFramework.Asserts@2a5ca609]" name="f" duration-ms="6932" started-at="2018-06-22T21:25:37Z" finished-at="2018-06-22T21:25:43Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:automationFramework.Asserts@2a5ca609]" name="f" duration-ms="7226" started-at="2018-06-25T21:18:05Z" finished-at="2018-06-25T21:18:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
