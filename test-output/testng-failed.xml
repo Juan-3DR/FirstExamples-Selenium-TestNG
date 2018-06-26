@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automationFramework.DataProviders">
+      <class name="automationFramework.AssertsAndDataPs">
         <methods>
           <include name="f" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- automationFramework.DataProviders -->
+      </class> <!-- automationFramework.AssertsAndDataPs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

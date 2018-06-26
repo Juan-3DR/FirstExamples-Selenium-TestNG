@@ -15,10 +15,8 @@ public class DataProviders {
   
 	
 	public static Object[][] credentials() {
-		 
 	return new Object[][] { { "testuser_1", "Test@123" }, 
 		{ "testuser_2", "Test@123" }};
- 
   }
 	
 	@Test(dataProvider = "Authentication")
