@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11866" started-at="2018-06-25T22:26:58Z" finished-at="2018-06-25T22:27:10Z">
+  <suite name="Default suite" duration-ms="7379" started-at="2018-07-19T16:14:32Z" finished-at="2018-07-19T16:14:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11866" started-at="2018-06-25T22:26:58Z" finished-at="2018-06-25T22:27:10Z">
-      <class name="automationFramework.AssertsAndDataPs">
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:automationFramework.AssertsAndDataPs@68be2bc2]" name="f" duration-ms="6299" started-at="2018-06-25T22:26:58Z" data-provider="Authentication" finished-at="2018-06-25T22:27:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test@user1.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="7379" started-at="2018-07-19T16:14:32Z" finished-at="2018-07-19T16:14:39Z">
+      <class name="automationFramework.Asserts">
+        <test-method status="PASS" signature="f()[pri:0, instance:automationFramework.Asserts@2a5ca609]" name="f" duration-ms="7349" started-at="2018-07-19T16:14:32Z" finished-at="2018-07-19T16:14:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:automationFramework.AssertsAndDataPs@68be2bc2]" name="f" duration-ms="5525" started-at="2018-06-25T22:27:04Z" data-provider="Authentication" finished-at="2018-06-25T22:27:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test@user2.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- automationFramework.AssertsAndDataPs -->
+      </class> <!-- automationFramework.Asserts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
