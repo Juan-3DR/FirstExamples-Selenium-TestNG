@@ -98,7 +98,7 @@ public class Asserts {
 	    
 	    Assert.assertEquals(btext, bannerText,"Error<--------");
 	    //Thread.sleep(2000);
-		driver.quit();
+		//driver.quit();
 		
 		
 	}

@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="561" started-at="2018-07-25T20:13:50Z" finished-at="2018-07-25T20:13:51Z">
+  <suite name="Default suite" duration-ms="641" started-at="2018-07-26T19:33:46Z" finished-at="2018-07-26T19:33:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="561" started-at="2018-07-25T20:13:50Z" finished-at="2018-07-25T20:13:51Z">
+    <test name="Default test" duration-ms="641" started-at="2018-07-26T19:33:46Z" finished-at="2018-07-26T19:33:47Z">
       <class name="extentReports.ExtentReportsClass">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:extentReports.ExtentReportsClass@61832929]" name="startReport" is-config="true" duration-ms="184" started-at="2018-07-25T20:13:50Z" finished-at="2018-07-25T20:13:51Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:extentReports.ExtentReportsClass@61832929]" name="startReport" is-config="true" duration-ms="240" started-at="2018-07-26T19:33:46Z" finished-at="2018-07-26T19:33:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="FAIL" signature="failTest()[pri:0, instance:extentReports.ExtentReportsClass@61832929]" name="failTest" duration-ms="17" started-at="2018-07-25T20:13:51Z" finished-at="2018-07-25T20:13:51Z">
+        <test-method status="FAIL" signature="failTest()[pri:0, instance:extentReports.ExtentReportsClass@61832929]" name="failTest" duration-ms="10" started-at="2018-07-26T19:33:46Z" finished-at="2018-07-26T19:33:46Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -22,7 +22,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
 at org.testng.Assert.assertTrue(Assert.java:54)
-at extentReports.ExtentReportsClass.failTest(ExtentReportsClass.java:60)
+at extentReports.ExtentReportsClass.failTest(ExtentReportsClass.java:61)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -54,7 +54,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.ExtentReportsClass@61832929]" name="getResult" is-config="true" duration-ms="15" started-at="2018-07-25T20:13:51Z" finished-at="2018-07-25T20:13:51Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.ExtentReportsClass@61832929]" name="getResult" is-config="true" duration-ms="14" started-at="2018-07-26T19:33:46Z" finished-at="2018-07-26T19:33:46Z">
           <params>
             <param index="0">
               <value>
@@ -65,18 +65,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="passTest()[pri:0, instance:extentReports.ExtentReportsClass@61832929]" name="passTest" duration-ms="3" started-at="2018-07-25T20:13:51Z" finished-at="2018-07-25T20:13:51Z">
+        <test-method status="PASS" signature="passTest()[pri:0, instance:extentReports.ExtentReportsClass@61832929]" name="passTest" duration-ms="1" started-at="2018-07-26T19:33:46Z" finished-at="2018-07-26T19:33:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passTest -->
-        <test-method status="SKIP" signature="skipTest()[pri:0, instance:extentReports.ExtentReportsClass@61832929]" name="skipTest" duration-ms="2" started-at="2018-07-25T20:13:51Z" finished-at="2018-07-25T20:13:51Z">
+        <test-method status="SKIP" signature="skipTest()[pri:0, instance:extentReports.ExtentReportsClass@61832929]" name="skipTest" duration-ms="4" started-at="2018-07-26T19:33:46Z" finished-at="2018-07-26T19:33:46Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping - This is not ready for testing ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Skipping - This is not ready for testing 
-at extentReports.ExtentReportsClass.skipTest(ExtentReportsClass.java:68)
+at extentReports.ExtentReportsClass.skipTest(ExtentReportsClass.java:70)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -108,7 +108,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skipTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.ExtentReportsClass@61832929]" name="getResult" is-config="true" duration-ms="0" started-at="2018-07-25T20:13:51Z" finished-at="2018-07-25T20:13:51Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.ExtentReportsClass@61832929]" name="getResult" is-config="true" duration-ms="0" started-at="2018-07-26T19:33:46Z" finished-at="2018-07-26T19:33:46Z">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.ExtentReportsClass@61832929]" name="getResult" is-config="true" duration-ms="1" started-at="2018-07-25T20:13:51Z" finished-at="2018-07-25T20:13:51Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.ExtentReportsClass@61832929]" name="getResult" is-config="true" duration-ms="0" started-at="2018-07-26T19:33:46Z" finished-at="2018-07-26T19:33:46Z">
           <params>
             <param index="0">
               <value>
@@ -130,7 +130,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:extentReports.ExtentReportsClass@61832929]" name="endReport" is-config="true" duration-ms="310" started-at="2018-07-25T20:13:51Z" finished-at="2018-07-25T20:13:51Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:extentReports.ExtentReportsClass@61832929]" name="endReport" is-config="true" duration-ms="349" started-at="2018-07-26T19:33:46Z" finished-at="2018-07-26T19:33:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

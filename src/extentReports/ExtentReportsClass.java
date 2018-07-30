@@ -15,7 +15,7 @@ import org.testng.SkipException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.Test;//88888888888888
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -23,7 +23,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.aventstack.extentreports.reporter.configuration.ChartLocation;
+import com.aventstack.extentreports.reporter.configuration.ChartLocation;//555555555555
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentReportsClass {
@@ -51,7 +51,8 @@ public class ExtentReportsClass {
 	public void passTest() {
 		logger = extent.createTest("passTest");
 		Assert.assertTrue(true);
-		logger.log(Status.PASS, MarkupHelper.createLabel("Test Case Passed is passTest", ExtentColor.GREEN));
+		logger.log(Status.PASS, MarkupHelper.createLabel("Test Case Passed is passTest",
+				ExtentColor.GREEN));
 	}
 
 	@Test
@@ -59,7 +60,8 @@ public class ExtentReportsClass {
 		logger = extent.createTest("failTest");
 		Assert.assertTrue(false);
 		logger.log(Status.PASS, "Test Case (failTest) Status is passed");
-		logger.log(Status.PASS, MarkupHelper.createLabel("Test Case (failTest) Status is passed", ExtentColor.GREEN));
+		logger.log(Status.PASS, MarkupHelper.createLabel("Test Case (failTest) Status is passed",
+				ExtentColor.GREEN));
 	}
 
 	@Test
